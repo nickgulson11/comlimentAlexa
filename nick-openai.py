@@ -2,7 +2,7 @@ import openai
 import json
 
 # Load your API key from an environment variable or secret management service
-openai.api_key = "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"
+openai.api_key = "XXX"
 
 def compliment(name):
     p = "Give a nice compliment to my girlfriend " + name
