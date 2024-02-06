@@ -1,7 +1,9 @@
 import requests
+import ddbCall
 
 # OpenAI API Key
 apiKey = "XXX"
+#ddbCall.getOpenAIKey()
 url = "https://api.openai.com/v1/chat/completions"
 
 # OpenAI Python Package Method - Alexa console refuses to dowload latest version
