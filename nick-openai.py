@@ -16,7 +16,7 @@ def compliment(name):
     t = 0.7
     body = {
         "messages":[{"role": "user", "content": p}],
-        "model":"gpt-3.5-turbo",
+        "model":"gpt-3.5-turbo-instruct",
         "temperature": t,
         "max_tokens": 55
         }
